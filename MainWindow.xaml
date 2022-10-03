@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPF_Rassokhin_PR5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Rassokhin_PR5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Рисунки">
+                <MenuItem Header="Киска 1" Click="MenuItem_Click" ></MenuItem>
+                <MenuItem Header="Киска 2" Click="MenuItem_Click_1" ></MenuItem>
+                <MenuItem Header="Киска 3" Click="MenuItem_Click_2" ></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Image x:Name="cat_4" Source="images\cat_1.png" Width="800" Height="450"/>
+        <Image x:Name="cat_3" Source="images\cat_3.png" Width="800" Height="450"/>
+        <Image x:Name="cat_2" Source="images\cat_2.png" Width="800" Height="450"/>
+        <Image x:Name="cat_1" Source="images\cat_4.png" Width="800" Height="450"/>
+    </Grid>
+</Window>
